@@ -1,0 +1,51 @@
+<h3>Usuarios de la organización</h3>
+
+@if (organizacion?.users?.length) {
+
+  <ul>
+    @for (user of organizacion.users; track user._id) {
+
+      <li>
+
+        {{ user.name }}
+
+        <button
+          class="btn delete-btn"
+          (click)="eliminarUsuario(user)">
+          Eliminar
+        </button>
+
+      </li>
+
+    }
+  </ul>
+
+} @else {
+
+  <p>No hay usuarios asignados.</p>
+
+}
+
+<hr>
+
+<h3>Añadir usuario</h3>
+
+<ul>
+
+  @for (user of usuariosDisponibles; track user._id) {
+
+    <li>
+
+      {{ user.name }}
+
+      <button
+        class="btn"
+        (click)="agregarUsuario(user)">
+        Añadir
+      </button>
+
+    </li>
+
+  }
+
+</ul>
