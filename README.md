@@ -1,3 +1,8 @@
+En les tasques realitzades s'ha utilitzat IA Generativa ChatGPT.
+Tasca 1: No s'ha necessitat ús de la IA. 
+Tasca 2: No s'ha necessitat IA, s'ha utilitzat la configuració semblant a organització i s'ha modificat lleugerament. 
+Tasca 3: S'ha utilitzat IA per acabar de retocar les funcions. 
+
 # MiniSpa
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.0.
